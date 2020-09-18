@@ -8,7 +8,7 @@ Barkeeping is Hard!
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
-Oh no! You've inherited a famous bar in the heart of the magical city of Brickhold! You're eager
+Oh no! You've inherited a famous bar in the heart of the magical city of Brickhold! You're eager to start but you need to clean out the rooms.
 
 ## API and Data Sample
 
