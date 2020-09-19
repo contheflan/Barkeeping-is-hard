@@ -5,10 +5,7 @@
 Barkeeping is Hard!
 
 ## Project Description
-
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
-
-You've inherited a famous bar in the heart of the magical city of Brickhold! You're eager to start but you need to clean out the rooms but oh no! There are monsters hiding in all the rooms! Clean the rooms and try not to get eaten!
+You've inherited a famous bar in the heart of the magical city of Brickhold! You're eager to start but you need to clean out the rooms. Oh no! There are monsters hiding inside and worse, THEY AREN'T PAYING RENT! Clean the rooms and try not to get punched!
 
 ## API and Data Sample
 
@@ -105,7 +102,8 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### PostMVP  
 
-- Add another screen: victory! or loss!
+- Add a title screen
+- Add a result screen: for victory or loss
 - Add more monster possibilities
 - Add different modifiers to the dice roll depending on the monster
 - Add different ways to beat up monsters
@@ -130,10 +128,6 @@ You are **responsible** for scheduling time with your squad to seek approval for
 ![Barkeep Matrix](https://i.imgur.com/2NdS2og.png)
 
 ## Timeframes
-
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
