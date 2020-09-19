@@ -87,7 +87,7 @@ https://www.dnd5eapi.co/api/monsters
 
 ## Wireframes
 
-[Barkeeping-proof-of-concept](https://imgur.com/a/6ImDh6F)
+![Barkeeping-proof-of-concept](https://imgur.com/a/6ImDh6F)
 
 
 
@@ -96,17 +96,17 @@ https://www.dnd5eapi.co/api/monsters
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Pulling in a stat block for a scary monster using the dnd API
+- Attaching an image to this monster and some small animations
+- Implement a 20 sided-dice comparison combat mechanic.
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Add a third screen: victory!
+- Add more monster possibilities
+- Add different modifiers to the dice roll depending on the monster
+- Add different ways to beat up monsters
 
 ## Project Schedule
 
@@ -135,9 +135,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Filling out HTML| H | 3hrs| ?hrs | ?hrs |
+| Bringing in API from Postman | H | 2hrs| ?hrs | ?hrs |
+| Attaching CSS | M | 6hrs| ?hrs | ?hrs |
+| Baseline JS | H | 3hrs| ?hrs | ?hrs |
+| Implementing Eventlisteners| H | 3hrs| ?hrs | ?hrs |
+| Appending frame 2 to the DOM | H | 3hrs| ?hrs | ?hrs |
+| Troubleshooting HTML | M | 6hrs| ?hrs | ?hrs |
+| Troubleshooting CSS | H | 6hrs| ?hrs | ?hrs |
+| Troubleshooting JS | H | 6hrs| ?hrs | ?hrs |
+| Total | - | hrs| ?hrs | ?hrs |
 
 ## Code Snippet
 
