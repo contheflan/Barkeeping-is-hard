@@ -96,12 +96,13 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP 
 
-- Pulling in a stat block for a scary monster using the dnd API
-- Attaching an image to this monster and some small animations
-- Implement a 20 sided-dice comparison combat mechanic.
+- Pulling in a stat block for the monster using the dnd API(specifically it's "name" and "armor_class")
+- Create a dice rolling array to show what the player rolled(1 thru 20)
+- Comparing the armor_class of the monster with the dice result from the attack. Greater than the amount = Win!
 
 #### PostMVP  
 
+- Attaching an image to the monster from an outside API
 - Add a title screen
 - Add a result screen: for victory or loss
 - Add more monster possibilities
