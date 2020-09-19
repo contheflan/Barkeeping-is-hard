@@ -87,7 +87,7 @@ https://www.dnd5eapi.co/api/monsters
 
 ## Wireframes
 
-![Barkeeping-proof-of-concept](https://imgur.com/a/6ImDh6F)
+[Barkeeping-proof-of-concept](https://imgur.com/a/6ImDh6F)
 
 
 
