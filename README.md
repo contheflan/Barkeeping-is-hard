@@ -137,7 +137,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Filling out HTML| H | 3hrs| ?hrs | ?hrs |
-| Bringing in API from Postman | H | 1hrs| ?hrs | ?hrs |
+| Bring API into JS | H | 1hrs| ?hrs | ?hrs |
 | Attaching CSS | M | 6hrs| ?hrs | ?hrs |
 | Baseline JS | H | 3hrs| ?hrs | ?hrs |
 | Implementing Eventlisteners| H | 3hrs| ?hrs | ?hrs |
