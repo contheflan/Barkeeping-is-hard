@@ -89,7 +89,8 @@ https://www.dnd5eapi.co/api/monsters
 
 ![Barkeeping-proof-of-concept](https://i.imgur.com/IxnI3lm.png)
 
--4 Divs (
+- 4 Divs (Top rules/lore text, Lower Third w/ button, Monster Image stats, Dice roll w/ results)
+- 1 Button to roll the dice
 
 
 ### MVP/PostMVP
@@ -104,7 +105,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### PostMVP  
 
-- Add a third screen: victory!
+- Add another screen: victory! or loss!
 - Add more monster possibilities
 - Add different modifiers to the dice roll depending on the monster
 - Add different ways to beat up monsters
