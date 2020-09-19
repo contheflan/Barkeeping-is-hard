@@ -89,6 +89,7 @@ https://www.dnd5eapi.co/api/monsters
 
 ![Barkeeping-proof-of-concept](https://i.imgur.com/IxnI3lm.png)
 
+-4 Divs (
 
 
 ### MVP/PostMVP
@@ -140,9 +141,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Attaching CSS | M | 6hrs| ?hrs | ?hrs |
 | Baseline JS | H | 3hrs| ?hrs | ?hrs |
 | Implementing Eventlisteners| H | 3hrs| ?hrs | ?hrs |
+| Dice Armor Compare Function | H | 3hrs| ?hrs | ?hrs |
 | Troubleshooting HTML | M | 6hrs| ?hrs | ?hrs |
-| Troubleshooting CSS | H | 6hrs| ?hrs | ?hrs |
-| Troubleshooting JS | H | 6hrs| ?hrs | ?hrs |
+| Troubleshooting CSS | H | 8hrs| ?hrs | ?hrs |
+| Troubleshooting JS | H | 7hrs| ?hrs | ?hrs |
 | Total | - | 40hrs| ?hrs | ?hrs |
 
 ## Code Snippet
