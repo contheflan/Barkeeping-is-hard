@@ -87,7 +87,7 @@ https://www.dnd5eapi.co/api/monsters
 
 ## Wireframes
 
-![Barkeeping-proof-of-concept](https://i.imgur.com/VOsp7GL.png)
+![Barkeeping-proof-of-concept](https://i.imgur.com/IxnI3lm.png)
 
 
 
@@ -127,6 +127,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
 
+
 ## Timeframes
 
 Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
@@ -136,15 +137,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Filling out HTML| H | 3hrs| ?hrs | ?hrs |
-| Bringing in API from Postman | H | 2hrs| ?hrs | ?hrs |
+| Bringing in API from Postman | H | 1hrs| ?hrs | ?hrs |
 | Attaching CSS | M | 6hrs| ?hrs | ?hrs |
 | Baseline JS | H | 3hrs| ?hrs | ?hrs |
 | Implementing Eventlisteners| H | 3hrs| ?hrs | ?hrs |
-| Appending frame 2 to the DOM | H | 3hrs| ?hrs | ?hrs |
 | Troubleshooting HTML | M | 6hrs| ?hrs | ?hrs |
 | Troubleshooting CSS | H | 6hrs| ?hrs | ?hrs |
 | Troubleshooting JS | H | 6hrs| ?hrs | ?hrs |
-| Total | - | hrs| ?hrs | ?hrs |
+| Total | - | 40hrs| ?hrs | ?hrs |
 
 ## Code Snippet
 
