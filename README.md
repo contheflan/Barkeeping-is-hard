@@ -8,15 +8,88 @@ Barkeeping is Hard!
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
-Oh no! You've inherited a famous bar in the heart of the magical city of Brickhold! You're eager to start but you need to clean out the rooms.
+You've inherited a famous bar in the heart of the magical city of Brickhold! You're eager to start but you need to clean out the rooms but oh no! There are monsters hiding in all the rooms! Clean the rooms and try not to get eaten!
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+https://www.dnd5eapi.co/api/monsters
+```
+{
+    "index": "imp",
+    "name": "Imp",
+    "size": "Tiny",
+    "type": "fiend",
+    "subtype": "devil",
+    "alignment": "lawful evil",
+    "armor_class": 13,
+    "hit_points": 10,
+    "hit_dice": "3d4",
+    "speed": {
+        "walk": "20 ft.",
+        "fly": "40 ft."
+    },
+    "strength": 6,
+    "dexterity": 17,
+    "constitution": 13,
+    "intelligence": 11,
+    "wisdom": 12,
+    "charisma": 14,
+    "proficiencies": [
+        {
+            "index": "skill-deception",
+            "name": "Skill: Deception",
+            "value": 4,
+            "url": "/api/proficiencies/skill-deception"
+        },
+        {
+            "index": "skill-insight",
+            "name": "Skill: Insight",
+            "value": 3,
+            "url": "/api/proficiencies/skill-insight"
+        },
+        {
+            "index": "skill-persuasion",
+            "name": "Skill: Persuasion",
+            "value": 4,
+            "url": "/api/proficiencies/skill-persuasion"
+        },
+        {
+            "index": "skill-stealth",
+            "name": "Skill: Stealth",
+            "value": 5,
+            "url": "/api/proficiencies/skill-stealth"
+        }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "cold",
+        "bludgeoning, piercing, and slashing from nonmagical/nonsilver weapons"
+    ],
+    "damage_immunities": [
+        "fire",
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": 11
+    },
+    "languages": "Infernal, Common",
+    "challenge_rating": 1,
+    }
+```
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+![Barkeeping-proof-of-concept](https://imgur.com/a/6ImDh6F)
+
+
 
 ### MVP/PostMVP
 
