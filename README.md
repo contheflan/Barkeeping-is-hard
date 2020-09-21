@@ -105,21 +105,20 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 - Attaching an image to the monster from an outside API
 - Add a title screen
 - Add a result screen: for victory or loss
+- Add a simple dice rolling/spinning animation for attacks
 - Add more monster possibilities
 - Add different modifiers to the dice roll depending on the monster
 - Add different ways to beat up monsters
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
 You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
 |Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Sept 21| Project Approval | Incomplete
-|Sept 22| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Sept 21| Initial Project Approval | Incomplete
+|Sept 22| HTML, CSS, JS, APi | Incomplete
 |Sept 23| MVP | Incomplete
 |Sept 24| Post MVP/Styling | Incomplete
 |Sept 25| Presentations | Incomplete
@@ -133,13 +132,14 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Filling out HTML| H | 3hrs| ?hrs | ?hrs |
-| Bring API into JS | H | 1hrs| ?hrs | ?hrs |
-| Attaching CSS | M | 6hrs| ?hrs | ?hrs |
+| Implementing the API | H | 1hrs| ?hrs | ?hrs |
+| Writing CSS | M | 6hrs| ?hrs | ?hrs |
 | Baseline JS | H | 3hrs| ?hrs | ?hrs |
 | Implementing Eventlisteners| H | 3hrs| ?hrs | ?hrs |
 | Dice Armor Compare Function | H | 3hrs| ?hrs | ?hrs |
 | Troubleshooting HTML | M | 6hrs| ?hrs | ?hrs |
-| Troubleshooting CSS | H | 8hrs| ?hrs | ?hrs |
+| Adding Media Queries for Mobile | H | 2hrs| ?hrs | ?hrs |
+| Troubleshooting CSS | H | 6hrs| ?hrs | ?hrs |
 | Troubleshooting JS | H | 7hrs| ?hrs | ?hrs |
 | Total | - | 40hrs| ?hrs | ?hrs |
 
