@@ -104,7 +104,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Attaching an image to the monster from an outside API
 - Add a title screen
-- Add a result screen: for victory or loss
+- Add a result screen for victory or loss
 - Add a simple dice rolling/spinning animation for attacks
 - Add more monster possibilities
 - Add different modifiers to the dice roll depending on the monster
