@@ -1,0 +1,72 @@
+body {
+  font-family:Arial, Helvetica, sans-serif ;
+  width: 500px;
+  text-decoration: white;
+  /* diff background */
+  /* background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+}
+
+main{
+  background-image: url(https://cdn.pixabay.com/photo/2017/02/07/09/02/wood-2045380_960_720.jpg);
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  background-color: rgba(105, 97, 97, 0.411);
+}
+
+.info-sides{
+  background-color: rgba(209, 205, 205, 0.411);
+}
+
+.text-box-top{
+  margin-bottom: 15px;
+  font-size: 40px;
+  background-color: rgba(105, 97, 97, 0.411);
+  text-align: center;
+}
+
+.intro-text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text-box-bottom{
+  padding: 30px;
+  margin-top: 15px;
+  background-color: rgba(105, 97, 97, 0.411);
+  text-align: center;
+}
+
+#button-holder{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border:10px, solid, rgb(119, 91, 22);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  background-color: goldenrod;
+  border: 
+  padding: 10px;
+  font-size: 40px;
+}
+
+#monster-img{
+width: 50%;
+text-align: center;
+padding: 10px;
+}
+
+#api-info{
+display:flex;
+}
+
+#monster-stats,
+#dice-results{
+  display:flex;
+  flex-direction: column;
+}
+
+

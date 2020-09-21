@@ -10,3 +10,5 @@ async function getMonster(monster) {
 }
 
 getMonster('goblin')
+
+const roll = []

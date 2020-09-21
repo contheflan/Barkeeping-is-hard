@@ -6,10 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script defer src="./app.js"></script>
+  <link href="style.css" rel="stylesheet">
   <title>Barkeeping is Hard!</title>
 </head>
 
 <body>
+
+  <main>
+    <div class="text-box-top">
+      <p class="intro-text">
+        Zounds! A monster in your bar! Roll a 20-sided dice to attack! If the number rolled is
+        higher than their armor you win! Show no quarter!
+      </p>
+    </div>
+    <div id="api-info">
+      <div class="info-sides" id="monster-stats">
+        <p>Monster Stats
+        <p>NUMBERS FROM API</p>
+      </div>
+      </p>
+      <img id="monster-img" src='https://newfastuff.com/wp-content/uploads/2019/04/BL1hnId.png'>
+      </img>
+      <div class="info-sides" id="dice-results">
+        <p>Dice results go here!</p>
+        <p>NUMBERS FROM ARRAY</p>
+      </div>
+    </div>
+    <div class="text-box-bottom">
+      <h2 id="button-holder">
+        <button>GO TOSS THIS LOSER</button>
+      </h2>
+    </div>
+  </main>
+
 </body>
 
 </html>
