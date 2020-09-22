@@ -1,6 +1,6 @@
 body {
-  font-family:Arial, Helvetica, sans-serif ;
-  width: 70%;
+  font-family: 'MedievalSharp', cursive;
+  width: 80%;
   padding: 5px;
   margin: auto;
   /* diff background */
@@ -11,55 +11,53 @@ main{
   background-image: url(https://cdn.pixabay.com/photo/2017/02/07/09/02/wood-2045380_960_720.jpg);
   display: flex;
   flex-direction: column;
-  border: 5px solid black;
-  background-color: rgba(105, 97, 97, 0.411);
+  border: 5px solid rgba(0, 0, 0, 0.753);
+  background-color: rgba(105, 97, 97, 0.698);
 }
 
 .info-sides{
+  font-size: 10px;
+  width: 10%;
   padding: auto;
   margin: 0px;
   background-color: rgba(209, 205, 205, 0.411);
 }
 
 #text-box-top{
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-size: 30px;
   background-color: rgba(105, 97, 97, 0.411);
   text-align: center;
 }
 
 #intro-text{
+  padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 #text-box-bottom{
   padding: 30px;
-  margin-top: 15px;
-  background-color: rgba(105, 97, 97, 0.411);
+  margin-top: 25px;
+  background-color: rgba(105, 97, 97, 0.733);
   text-align: center;
 }
 
 #button-holder{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border:10px, solid, rgb(119, 91, 22);
   padding: 10px;
   display: flex;
   justify-content: center;
 }
 
 button{
-  background-color: goldenrod;
-  border: 
-  padding: 10px;
-  font-size: 40px;
+  background-color: rgb(218, 165, 32);
+  font-size: 50px;
 }
 
 #monster-img{
 width: 50%;
 text-align: center;
-padding: 5px;
+padding: 10px;
 }
 
 #middle-block{
@@ -67,11 +65,18 @@ display:flex;
 }
 
 #monster-stats,
-#dice-results,
-#api-info{
+#dice-results
+{
   width: 25%;
   font-size: 18px;
   display:flex;
   flex-direction: column;
   text-align: center;
+}
+
+#results{
+  background-color: rgba(184, 181, 181, 0.897);
+  margin: auto;
+  height: auto;
+  width: 70px;
 }
