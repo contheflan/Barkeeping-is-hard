@@ -114,9 +114,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Sept 21| Initial Project Approval | Incomplete
-|Sept 22| HTML, CSS, JS, APi | Incomplete
+|Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|Sept 21| Initial Project Approval | Complete
+|Sept 22| HTML, CSS, JS, APi | Complete
 |Sept 23| MVP | Incomplete
 |Sept 24| Post MVP/Styling | Incomplete
 |Sept 25| Presentations | Incomplete
@@ -130,7 +130,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Filling out HTML| H | 3hrs| ?hrs | 2.5hrs |
-| Implementing the API | H | 1hr| ?hrs | 1+?hr |
+| Implementing the API | H | 1hr| ?hrs | 2hr |
 | Writing CSS | M | 6hrs| ?hrs | 2hrs |
 | Baseline JS | H | 3hrs| ?hrs | 1hr |
 | Implementing Eventlisteners| H | 3hrs| ?hrs | 2hrs |
