@@ -129,10 +129,10 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Filling out HTML| H | 3hrs| ?hrs | ?hrs |
-| Implementing the API | H | 1hrs| ?hrs | ?hrs |
-| Writing CSS | M | 6hrs| ?hrs | ?hrs |
-| Baseline JS | H | 3hrs| ?hrs | ?hrs |
+| Filling out HTML| H | 3hrs| ?hrs | 2.5hrs |
+| Implementing the API | H | 1hr| ?hrs | 1hr |
+| Writing CSS | M | 6hrs| ?hrs | 2hrs |
+| Baseline JS | H | 3hrs| ?hrs | 1hr |
 | Implementing Eventlisteners| H | 3hrs| ?hrs | ?hrs |
 | Dice Armor Compare Function | H | 3hrs| ?hrs | ?hrs |
 | Troubleshooting HTML | M | 6hrs| ?hrs | ?hrs |
@@ -152,4 +152,4 @@ function reverse(string) {
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+-Changed the random number selection method from picking from an array to picking a random number through the Math.random function.
