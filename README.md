@@ -130,10 +130,10 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Filling out HTML| H | 3hrs| ?hrs | 2.5hrs |
-| Implementing the API | H | 1hr| ?hrs | 1hr |
+| Implementing the API | H | 1hr| ?hrs | 1+?hr |
 | Writing CSS | M | 6hrs| ?hrs | 2hrs |
 | Baseline JS | H | 3hrs| ?hrs | 1hr |
-| Implementing Eventlisteners| H | 3hrs| ?hrs | ?hrs |
+| Implementing Eventlisteners| H | 3hrs| ?hrs | 2hrs |
 | Dice Armor Compare Function | H | 3hrs| ?hrs | ?hrs |
 | Troubleshooting HTML | M | 6hrs| ?hrs | ?hrs |
 | Adding Media Queries for Mobile | H | 2hrs| ?hrs | ?hrs |
