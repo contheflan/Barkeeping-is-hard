@@ -5,12 +5,14 @@ async function getMonster(monster) {
     const monsterApi = document.querySelector(".api-info")
     const monsterIntro = document.querySelector("#intro-text")
     monsterIntro.innerText = `Zounds! A ${response.data.name} in your bar! Roll a 20-sided dice to attack! If the number rolled is higher than their armor you win! Show no quarter!`
-    monsterApi.innerText = `${response.data.name} \n Armor Class: ${response.data.armor_class}`
+    monsterApi.innerText = `Name: ${response.data.name} \n \n Armor Class: ${response.data.armor_class}`
   } catch (error) {
     console.log(`Error: ${error}`)
   }
 }
 getMonster('commoner')
+
+// add more monsters! goblin, mimic, death knight, imp
 
 function roll(min, max) {
   return Math.round(Math.random() * (max - min) + min)
