@@ -1,7 +1,9 @@
+
+
 body {
   font-family: 'MedievalSharp', cursive;
   width: 80%;
-  padding: 5px;
+  padding: 30px;
   margin: auto;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 4px black;
@@ -102,4 +104,20 @@ display:flex;
   height: auto;
   width: 100px;
   border-radius: 15px;
+}
+
+@media screen and (min-width: 600){
+  body{
+  display: inline-block;
+  width: 500px;
+  }
+  
+#monster-stats,
+#dice-results{
+  width: 50px;
+  font-size: 25px;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
 }

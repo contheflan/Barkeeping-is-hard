@@ -46,4 +46,4 @@ function compare(diceRoll, monsterArmor) {
 }
 
 
-// to do: add splash/results screen, dice animation, weapons with dice modifiers, more monsters, add images, health bar?
+// to do: add results screen, dice animation, weapons with dice modifiers, add images, health bar?
