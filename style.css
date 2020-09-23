@@ -97,7 +97,6 @@ display:flex;
 }
 
 #results{
-  text-shadow: 0px;
   background-color: rgba(133, 126, 126, 0.76);
   margin: auto;
   height: auto;

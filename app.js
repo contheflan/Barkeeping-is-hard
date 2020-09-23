@@ -1,21 +1,9 @@
 let monsterArmor = 0
-
 let theMonsters = ['goblin', 'commoner', 'mimic', 'satyr']
-function monsterRoll(theMonsters) {
-  for (let i = theMonsters.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * i)
-    const tempMonster = theMonsters[i]
-    theMonsters[i] = theMonsters[j]
-    theMonsters[j] = tempMonster
-  }
-  // let randomMonster = theMonsters[Math.floor(Math.random() * theMonsters.length)]
-  // for (let i = 0; i > theMonsters.length; i++) {
-}
-
 
 async function getMonster(monster) {
   try {
-    const url = `https://www.dnd5eapi.co/api/monsters/${monster}`
+    const url = `https://www.dnd5eapi.co/api/monsters/${monster[Math.floor(Math.random() * theMonsters.length)]}`
     const response = await axios.get(url)
     const monsterApi = document.querySelector("#api-info")
     const monsterIntro = document.querySelector("#intro-text")
@@ -26,7 +14,7 @@ async function getMonster(monster) {
     console.log(`Error: ${error}`)
   }
 }
-getMonster(monsterRoll)
+getMonster(theMonsters)
 
 let diceRoll = 0
 function roll(min, max) {
