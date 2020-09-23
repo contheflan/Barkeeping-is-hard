@@ -3,43 +3,61 @@ body {
   width: 80%;
   padding: 5px;
   margin: auto;
-  /* diff background */
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px black;
   background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
 
 main{
-  background-image: url(https://cdn.pixabay.com/photo/2017/02/07/09/02/wood-2045380_960_720.jpg);
+  background-image: url(https://wallpaperaccess.com/full/1614310.jpg);
   display: flex;
   flex-direction: column;
   border: 5px solid rgba(0, 0, 0, 0.753);
-  background-color: rgba(105, 97, 97, 0.698);
+  background-color: rgba(105, 97, 97, 0.849);
 }
 
 .info-sides{
-  font-size: 10px;
+  font-size: 30px;
   width: 10%;
   padding: auto;
   margin: 0px;
-  background-color: rgba(209, 205, 205, 0.411);
+  background-color: rgba(209, 205, 205, 0.315);
 }
 
 #text-box-top{
+  
   margin-bottom: 25px;
-  font-size: 30px;
-  background-color: rgba(105, 97, 97, 0.411);
+  background-color: rgba(105, 97, 97, 0.63);
   text-align: center;
 }
 
-#intro-text{
+#intro-text
+{
+  font-size: 30px;
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-#text-box-bottom{
-  padding: 30px;
+#memory{
+  font-style: italic;
+  color: rgb(255, 251, 192);
+}
+
+.door-text{
+  font-size:25px;
+}
+
+#door{
+  display:flex;
+  width: 90%;
+  margin: auto;
+}
+
+.text-box-bottom{
+  padding: 20px;
   margin-top: 25px;
-  background-color: rgba(105, 97, 97, 0.733);
+  background-color: rgba(105, 97, 97, 0.637);
   text-align: center;
 }
 
@@ -52,6 +70,10 @@ main{
 button{
   background-color: rgb(218, 165, 32);
   font-size: 50px;
+  font-family: 'MedievalSharp', cursive;
+  text-shadow: 2px 2px rgb(139, 118, 48);
+  border-radius: 15px;
+  width: 400px;
 }
 
 #monster-img{
@@ -68,15 +90,17 @@ display:flex;
 #dice-results
 {
   width: 25%;
-  font-size: 18px;
+  font-size: 25px;
   display:flex;
   flex-direction: column;
   text-align: center;
 }
 
 #results{
-  background-color: rgba(184, 181, 181, 0.897);
+  text-shadow: 0px;
+  background-color: rgba(133, 126, 126, 0.76);
   margin: auto;
   height: auto;
-  width: 70px;
+  width: 100px;
+  border-radius: 15px;
 }
