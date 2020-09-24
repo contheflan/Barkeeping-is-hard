@@ -129,7 +129,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Filling out HTML| H | 3hrs| ?hrs | 2.5hrs |
+| Filling out HTML| H | 3hrs| ?hrs | 3hrs |
 | Implementing the API | H | 1hr| ?hrs | 2hr |
 | Writing CSS | M | 6hrs| ?hrs | 2hrs |
 | Baseline JS | H | 3hrs| ?hrs | 1hr |
@@ -137,9 +137,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Dice Armor Compare Function | H | 3hrs| ?hrs | 3hrs |
 | Troubleshooting HTML | M | 6hrs| ?hrs | 4hrs |
 | Adding Media Queries for Mobile | H | 2hrs| ?hrs | 5hrs |
-| Troubleshooting CSS | H | 6hrs| ?hrs | ?hrs |
-| Troubleshooting JS | H | 7hrs| ?hrs | ?hrs |
-| Total | - | 40hrs| ?hrs | ?hrs |
+| Troubleshooting CSS | H | 6hrs| ?hrs | 4hrs |
+| Troubleshooting JS | H | 7hrs| ?hrs | 6hrs |
+| Total | - | 40hrs| ?hrs | 30hrs |
 
 ## Code Snippet
 
