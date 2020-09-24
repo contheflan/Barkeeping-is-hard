@@ -4,7 +4,7 @@ body {
   max-width: 666px;
   font-family: 'MedievalSharp', cursive;
   width: 80%;
-  padding: 30px;
+  padding: 66px;
   margin: auto;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 4px black;
@@ -81,12 +81,17 @@ button{
 
 #monster-img{
 width: 50%;
-text-align: center;
 padding: 10px;
+height: 400px;
 }
 
 #middle-block{
 display:flex;
+}
+
+#monster-block{
+  display:contents;
+  justify-content: center;
 }
 
 #monster-stats,
@@ -100,11 +105,12 @@ display:flex;
 }
 
 #results{
-  background-color: rgba(133, 126, 126, 0.76);
+  background-color: rgb(100, 60, 107);
   margin: auto;
   height: auto;
   width: 100px;
   border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.753);
 }
 
 #health-bar{
@@ -130,7 +136,7 @@ display:flex;
     font-size: 15px;
     width: 80%;
     max-height: 30vh;
-    padding: 0px;
+    padding: 66px;
     margin: auto;
     align-items: center;
   }
@@ -145,18 +151,30 @@ display:flex;
     display:block;
   }
 
+  #monster-block{
+    display:flex;
+    justify-content: center;
+  }
+
   #monster-img{
+    justify-content: center;
+    border: 10px;
     padding: 0px;
     height: 20vh;
-    width: 100%;
+    width: 80%;
   }
     
   #monster-stats,
   #dice-results{
     width: 100%;
-    font-size: 15px;
+    font-size: 20px;
     min-height: 15vh;
   }
+
+  #results{
+    width: 100px;
+  }
+
   #button-holder{
     padding: auto;
     display: flex;
@@ -166,9 +184,5 @@ display:flex;
     font-size: 30px;
     border-radius: 10px;
   }
-
-
-
-
-
+  
 }
