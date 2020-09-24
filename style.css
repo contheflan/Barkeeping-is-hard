@@ -108,33 +108,48 @@ display:flex;
 
 @media screen and (max-width: 600px){
   body {
+    font-size: 15px;
     width: 80%;
     max-height: 30vh;
-    padding: auto;
+    padding: 0px;
     margin: auto;
     align-items: center;
   }
 
   #intro-text{
-    font-size: 25px;
+    font-size: 20px;
     padding: 0px;
     margin: 0px;
   }
 
-#middle-block{
+  #middle-block{
     display:block;
   }
 
-#monster-img{
+  #monster-img{
     padding: 0px;
-    max-height: 20vh;
-    min-width: 20vh;
+    height: 20vh;
+    width: 100%;
   }
     
-#monster-stats,
-#dice-results{
+  #monster-stats,
+  #dice-results{
     width: 100%;
-    font-size: 20px;
+    font-size: 15px;
     min-height: 15vh;
   }
+  #button-holder{
+    padding: auto;
+    display: flex;
+  }
+  
+  button{
+    font-size: 30px;
+    border-radius: 10px;
+  }
+
+
+
+
+
 }
