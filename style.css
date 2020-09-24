@@ -106,6 +106,24 @@ display:flex;
   border-radius: 15px;
 }
 
+#health-bar{
+  border: 10px;
+  display:flex;
+  width: 100%;
+  background-color: green;
+  color: black;
+}
+
+#victory{
+  font-size: 60px;
+  color: rgb(230, 170, 19);
+}
+
+#defeat{
+  font-size: 60px;
+  color: rgb(212, 17, 17);
+}
+
 @media screen and (max-width: 600px){
   body {
     font-size: 15px;

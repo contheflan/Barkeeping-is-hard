@@ -153,3 +153,4 @@ function reverse(string) {
 
 ## Change Log
 -Changed the random number selection method from picking from an array to picking a random number through the Math.random function.
+-Added health mechanic and 
