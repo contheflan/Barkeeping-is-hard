@@ -117,7 +117,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Sept 21| Initial Project Approval | Complete
 |Sept 22| HTML, CSS, JS, APi | Complete
-|Sept 23| MVP | Incomplete
+|Sept 23| MVP | Complete
 |Sept 24| Post MVP/Styling | Incomplete
 |Sept 25| Presentations | Incomplete
 
@@ -134,9 +134,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Writing CSS | M | 6hrs| ?hrs | 2hrs |
 | Baseline JS | H | 3hrs| ?hrs | 1hr |
 | Implementing Eventlisteners| H | 3hrs| ?hrs | 2hrs |
-| Dice Armor Compare Function | H | 3hrs| ?hrs | ?hrs |
-| Troubleshooting HTML | M | 6hrs| ?hrs | ?hrs |
-| Adding Media Queries for Mobile | H | 2hrs| ?hrs | ?hrs |
+| Dice Armor Compare Function | H | 3hrs| ?hrs | 3hrs |
+| Troubleshooting HTML | M | 6hrs| ?hrs | 4hrs |
+| Adding Media Queries for Mobile | H | 2hrs| ?hrs | 5hrs |
 | Troubleshooting CSS | H | 6hrs| ?hrs | ?hrs |
 | Troubleshooting JS | H | 7hrs| ?hrs | ?hrs |
 | Total | - | 40hrs| ?hrs | ?hrs |
