@@ -1,7 +1,4 @@
-let monsterApi = document.querySelector("#api-info")
-let monsterName = ""
-let monsterArmor = 0
-let monsterHealth = 0
+// global variables for some monsters and monster information
 let goblin = { name: 'goblin', img: 'assets/goblin.gif' }
 let skeleton = { name: 'skeleton', img: 'assets/skeleton.gif' }
 let mimic = { name: 'mimic', img: 'assets/mimic.gif' }
@@ -12,8 +9,14 @@ let vampire = { name: 'vampire', img: 'assets/vampire.gif' }
 let chain = { name: 'chain-devil', img: 'assets/chain.gif' }
 let horn = { name: 'horned-devil', img: 'assets/horn.gif' }
 
+let monsterApi = document.querySelector("#api-info")
+let monsterName = ""
+let monsterArmor = 0
+let monsterHealth = 0
 
 let theMonsters = [goblin, skeleton, mimic, ogre, zombie, swarm, vampire, chain, horn]
+
+// async function to pull a random monster (from theMonsters array) and append some of their stats to the "api-info" div
 async function getMonster(monster) {
   try {
     const monsterObject = monster[Math.floor(Math.random() * theMonsters.length)]
@@ -33,21 +36,25 @@ async function getMonster(monster) {
 }
 getMonster(theMonsters)
 
+
+const button = document.querySelector('#dice-roll');
+const diceResult = document.querySelector("#results")
 let diceRoll = 0
+
+// function for a random dice roll between 1 and 20 and a DOM 
 function roll(min, max) {
   let temp = Math.round(Math.random() * (max - min) + min)
   diceRoll = temp
   return temp
 }
 
-const button = document.querySelector('#dice-roll');
-const diceResult = document.querySelector("#results")
-
 button.addEventListener('click', () => {
   diceResult.innerText = roll(1, 20)
   compare(diceRoll)
 })
 
+
+// function to compare the dice roll result with the armor statistic on the monster pulled from the api
 function compare(diceRoll) {
   let loser = " \n LOSER \n -10 HP"
   let winner = " \n WINNER \n 10 DMG"
@@ -69,5 +76,3 @@ function compare(diceRoll) {
     }
   }
 }
-
-// to do: add dice animation, weapons with dice modifiers?
