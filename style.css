@@ -8,11 +8,11 @@ body {
   margin: auto;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 4px black;
-  background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(../Barkeeping-is-hard/assets/brickTexture.png);
 }
 
 main{
-  background-image: url(https://wallpaperaccess.com/full/1614310.jpg);
+  background-image: url(../Barkeeping-is-hard/assets/lightwoodwall.jpg);
   display: flex;
   flex-direction: column;
   border: 5px solid rgba(0, 0, 0, 0.753);
