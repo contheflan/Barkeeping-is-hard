@@ -1,4 +1,4 @@
-// global variables for some monsters and monster information
+// Global variables for some monsters and monster information
 let goblin = { name: 'goblin', img: 'assets/goblin.gif' }
 let skeleton = { name: 'skeleton', img: 'assets/skeleton.gif' }
 let mimic = { name: 'mimic', img: 'assets/mimic.gif' }
@@ -16,7 +16,9 @@ let monsterHealth = 0
 
 let theMonsters = [goblin, skeleton, mimic, ogre, zombie, swarm, vampire, chain, horn]
 
-// async function to pull a random monster (from theMonsters array) and append some of their stats to the "api-info" div
+
+
+// Async function to pull a random monster (from theMonsters array) and append some of their stats to the "api-info" div
 async function getMonster(monster) {
   try {
     const monsterObject = monster[Math.floor(Math.random() * theMonsters.length)]
@@ -37,11 +39,13 @@ async function getMonster(monster) {
 getMonster(theMonsters)
 
 
+
+// Global variables for the dice 
 const button = document.querySelector('#dice-roll');
 const diceResult = document.querySelector("#results")
 let diceRoll = 0
 
-// function for a random dice roll between 1 and 20 and a DOM 
+// Function for a random dice roll between 1 and 20 
 function roll(min, max) {
   let temp = Math.round(Math.random() * (max - min) + min)
   diceRoll = temp
@@ -54,7 +58,8 @@ button.addEventListener('click', () => {
 })
 
 
-// function to compare the dice roll result with the armor statistic on the monster pulled from the api
+
+// Function to compare the dice roll result with the armor statistic on the monster pulled from the api
 function compare(diceRoll) {
   let loser = " \n LOSER \n -10 HP"
   let winner = " \n WINNER \n 10 DMG"
