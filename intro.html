@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="./app.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
   <title>Barkeeping is Hard!</title>
@@ -12,24 +14,33 @@
 <body>
   <main>
     <div id="text-box-top">
-      <p class="door-text">The rain is harsh and your clothes are soaked, but you've finally arrived at your ancestral
-        Inn.
-        Clutching the last correspondence with your Grandpa close, you remember his last shaky words: <span
-          id="memory">"Be strong Gary, and in your darkest hour, you shall grow to become a most excellent and
-          admirable innkeep. Now go throw those freeloaders out of my bar! Kisses!"</span>
+      <p id="intro-text">
       </p>
     </div>
-    <a href="index.html">
-      <img
-        src="https://cdna.artstation.com/p/assets/images/images/015/965/832/large/maxim-demidenko-bernard-s-inn-night-3.jpg?1550379259"
-        id="door">
-    </a>
-    <div class="text-box-bottom">
-      <p class="door-text">The stench of his bourbon still burns your nostrils...</p>
-      <p>*Click the door to begin*</p>
+    <div id="middle-block">
+      <div class="info-sides" id="monster-stats">
+        <p>Monster Stats:</p>
+        <p id="api-info"></p>
+      </div>
+      </p>
+      <div id="monster-block">
+        <img id="monster-img" src='../Barkeeping-is-hard/assets/doot.gif'>
+        </img>
+      </div>
+      <div class="info-sides" id="dice-results">
+        <p>Looks like you rolled:</p>
+        <p id="results"></p>
+      </div>
     </div>
-  </main>
+    <div class="text-box-bottom">
+      <h2 id="button-holder">
+        <button id="dice-roll">GO TOSS THIS LOSER</button>
+      </h2>
+    </div>
 
+    <progress id="health-bar" value="100" max="100"></progress>
+    <!-- found the progress html element on a w3schools article -->
+  </main>
 </body>
 
 </html>
