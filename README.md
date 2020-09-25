@@ -171,4 +171,5 @@ function compare(diceRoll) {
 
 ## Change Log
 -Changed the random number selection method from picking from an array to picking a random number through a Math.random function.
+
 -Added health mechanic for both the player and the monster.
