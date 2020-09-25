@@ -5,7 +5,7 @@
 Barkeeping is Hard!
 
 ## Project Description
-You've inherited a famous bar in the heart of the magical city of Brickhold! You're eager to start but you need to clean out the rooms. Oh no! There are monsters hiding inside and worse, THEY AREN'T PAYING RENT! Clean the rooms and try not to get punched!
+You've inherited a famous bar in the heart of the magical city of Brickhold! You're eager to start but you need to clean out the rooms. Oh no! There are monsters hiding inside and worse... THEY AREN'T PAYING RENT! Clean the rooms and try not to get punched!
 
 ## API and Data Sample
 
@@ -118,7 +118,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Sept 21| Initial Project Approval | Complete
 |Sept 22| HTML, CSS, JS, APi | Complete
 |Sept 23| MVP | Complete
-|Sept 24| Post MVP/Styling | Incomplete
+|Sept 24| Post MVP/Styling | Complete
 |Sept 25| Presentations | Incomplete
 
 ## Priority Matrix
@@ -129,28 +129,46 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Filling out HTML| H | 3hrs| ?hrs | 3hrs |
-| Implementing the API | H | 1hr| ?hrs | 2hr |
-| Writing CSS | M | 6hrs| ?hrs | 2hrs |
-| Baseline JS | H | 3hrs| ?hrs | 1hr |
-| Implementing Eventlisteners| H | 3hrs| ?hrs | 2hrs |
-| Dice Armor Compare Function | H | 3hrs| ?hrs | 3hrs |
-| Troubleshooting HTML | M | 6hrs| ?hrs | 4hrs |
-| Adding Media Queries for Mobile | H | 2hrs| ?hrs | 5hrs |
-| Troubleshooting CSS | H | 6hrs| ?hrs | 4hrs |
-| Troubleshooting JS | H | 7hrs| ?hrs | 6hrs |
-| Total | - | 40hrs| ?hrs | 30hrs |
+| Filling out HTML| H | 3hrs| 3hrs | 3hrs |
+| Implementing the API | H | 1hr| 3hrs | 2hr |
+| Writing CSS | M | 6hrs| 6hrs | 4hrs |
+| Baseline JS | H | 3hrs| 8hrs | 6hr |
+| Implementing Eventlisteners| H | 3hrs| 3hrs | 2hrs |
+| Dice Armor Compare Function | H | 3hrs| 3hrs | 3hrs |
+| Troubleshooting HTML | M | 6hrs| 4hrs | 4hrs |
+| Adding Media Queries for Mobile | H | 2hrs| 8hrs | 6hrs |
+| Troubleshooting CSS | H | 6hrs| 8hrs | 8hrs |
+| Troubleshooting JS | H | 7hrs| 8hrs | 6hrs |
+| Total | - | 40hrs| 54hrs | 44hrs |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+Had a lot of fun discovering how to add different things ontop of my main dice roll comparison mechanic 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+function compare(diceRoll) {
+  let loser = " \n LOSER \n -10 HP"
+  let winner = " \n WINNER \n 10 DMG"
+  let health = document.querySelector('#health-bar')
+  if (diceRoll >= monsterArmor) {
+    document.querySelector('#results').style.color = "limegreen"
+    diceResult.innerText += winner
+    monsterHealth -= 10;
+    monsterApi.innerText = `NAME: ${monsterName} \n \n ARMOR: ${monsterArmor} \n \n HEALTH: ${monsterHealth}`
+    if (monsterHealth <= 0) {
+      window.location.replace("win.html")
+    }
+  } else {
+    document.querySelector('#results').style.color = "red"
+    diceResult.innerText += loser
+    health.value -= 10;
+    if (health.value == 0) {
+      window.location.replace("lose.html")
+    }
+  }
 }
 ```
 
 ## Change Log
--Changed the random number selection method from picking from an array to picking a random number through the Math.random function.
--Added health mechanic and 
+-Changed the random number selection method from picking from an array to picking a random number through a Math.random function.
+-Added health mechanic for both the player and the monster.
